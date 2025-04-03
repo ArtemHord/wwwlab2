@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP 10 Seriali Max | Najlepsze Rankingi</title>
+    <link href="./dist/min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-fade-in { animation: fadeIn 0.6s ease-out forwards; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1); }
+        .bg-gradient-animated { background-size: 400% 400%; animation: gradient 15s ease infinite; }
+        @keyframes gradient { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+        .text-shadow { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
+        .glass-effect { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+        .hover-scale img { transition: transform 0.3s ease; }
+        .hover-scale:hover img { transform: scale(1.05); }
+        html { scroll-behavior: smooth; }
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #1f2937; }
+        ::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 5px; }
+        ::-webkit-scrollbar-thumb:hover { background: #6b7280; }
+        .aspect-w-16 { position: relative; padding-bottom: 56.25%; }
+        .aspect-h-9 { height: 0; }
+        .aspect-w-16 > iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+      </style>
+    </head>
+    <body class="bg-gray-900 text-white min-h-screen font-sans overflow-x-hidden">
+      <header class="bg-gradient-to-r from-purple-900 via-blue-800 to-indigo-900 bg-gradient-animated py-12 px-4 md:px-8 shadow-xl relative overflow-hidden">
+         <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+         <div class="container mx-auto relative z-10">
+           <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+             <div>
+               <h1 class="text-4xl md:text-6xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 text-shadow">TOP 10 Seriali Max</h1>
+               <p class="text-lg md:text-xl text-blue-200">Najlepsze seriale według użytkowników Filmweb!</p>
+             </div>
+             <div class="mt-4 md:mt-0">
+               <div class="relative">
+                 <span class="ml-2 text-sm text-sky-300">Aktualizacja: 2 Kwiecień 2025</span>
+               </div>
+             </div>
+           </div>
+         </div>
+      </header>
+    
+      <section class="container mx-auto px-4 md:px-8 py-12 animate-fade-in">
+         <div class="glass-effect rounded-xl p-8 shadow-2xl border border-gray-700">
+           <h2 class="text-3xl font-bold mb-6 text-purple-400">Dlaczego ten ranking?</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+              <div class="bg-gray-800 bg-opacity-70 p-5 rounded-lg shadow-lg transform transition-all duration-300 hover:bg-gray-700 hover:-translate-y-1 hover:shadow-xl"> <p class="text-sky-300 mb-3 text-lg"><span class="font-bold text-sky-100">Jakość HBO/Max:</span> Gwarancja wysokobudżetowych produkcji i uznanych twórców.</p> </div>
+              <div class="bg-gray-800 bg-opacity-70 p-5 rounded-lg shadow-lg transform transition-all duration-300 hover:bg-gray-700 hover:-translate-y-1 hover:shadow-xl"> <p class="text-emerald-400 mb-3 text-lg"><span class="font-bold text-emerald-100">Głos Widzów:</span> Ranking oparty na tysiącach ocen użytkowników Filmweb.</p> </div>
+              <div class="bg-gray-800 bg-opacity-70 p-5 rounded-lg shadow-lg transform transition-all duration-300 hover:bg-gray-700 hover:-translate-y-1 hover:shadow-xl"> <p class="text-amber-300 mb-3 text-lg"><span class="font-bold text-amber-100">Różnorodność:</span> Od epickich sag po kameralne dramaty i kultowe animacje.</p> </div>
+            </div>
+            <div class="mt-8 flex flex-wrap gap-4 justify-center items-center"> <a href="#ranking-section"
+                class="px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full text-white font-bold hover:from-blue-600 hover:to-cyan-600 transition-all duration-300 shadow-lg">Zobacz
+                TOP 10</a>
+            <a href="https://www.max.com" target="_blank" rel="noopener noreferrer" class="px-5 py-3 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full text-white font-medium hover:from-pink-600 hover:to-purple-600 transition-all duration-300">Oglądaj na Max</a>
+            <a href="https://www.filmweb.pl/ranking/vod/max/serial" target="_blank" rel="noopener noreferrer"
+                class="px-5 py-3 bg-gray-700 rounded-full text-white font-medium hover:bg-gray-600 transition-all duration-300 shadow-lg">Ranking
+                na Filmweb</a>
+        </div>
+         </div>
+       </section>
+    
+      <main id="ranking-section" class="container mx-auto px-4 md:px-8 py-8">
+        <h2 class="text-4xl font-bold mb-12 text-center text-white relative pb-4">
+          <span class="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-blue-500 to-purple-500 transform -translate-y-2"></span>
+           Ranking TOP 10
+        </h2>
+    
+        <div class="space-y-12">
+            <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-xl transition-all duration-500 card-hover border border-gray-700" data-aos="fade-up">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:flex-none md:w-1/3 md:max-w-xs overflow-hidden hover-scale"> <img src="./images/czarnobyl.jpg" alt="Plakat Czarnobyl" class="w-full h-full object-cover"> </div>
+                    <div class="flex-auto p-8"> <div class="flex justify-between items-start"> <div><h3 class="text-3xl font-bold text-white mb-3">1. Czarnobyl</h3><div class="flex items-center mb-4"><span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">8.85/10</span><span class="text-gray-400">2019 • Dramat, Historyczny • Miniserial</span></div></div> <div class="bg-gradient-to-r from-red-500 to-pink-500 text-white px-4 py-2 rounded-full shadow-lg transform rotate-3"><span class="font-bold">TOP 1</span></div> </div> <p class="text-gray-300 mb-6 text-lg">Po wybuchu elektrowni jądrowej w Czarnobylu ratownicy poświęcają zdrowie i życie, by ratować Europę przed skutkami katastrofy.</p> <div class="flex flex-wrap gap-4"><a href="top1.html" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105"><svg class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg><span>Szczegóły</span></a></div> <div class="mt-6 flex flex-wrap gap-2"><span class="bg-yellow-900 text-yellow-200 px-3 py-1 rounded-full text-xs">Historia</span><span class="bg-red-900 text-red-200 px-3 py-1 rounded-full text-xs">Katastrofa</span><span class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs">Miniserial</span></div> </div>
+                </div>
+            </div>
+    
+            <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-xl transition-all duration-500 card-hover border border-gray-700" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:flex-none md:w-1/3 md:max-w-xs overflow-hidden hover-scale"> <img src="./images/game-of-thrones.jpg" alt="Plakat Gra o tron" class="w-full h-full object-cover"> </div>
+                    <div class="flex-auto p-8"> <h3 class="text-3xl font-bold text-white mb-3">2. Gra o tron</h3> <div class="flex items-center mb-4"><span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">8.74/10</span><span class="text-gray-400">2011-2019 • Fantasy, Dramat • 8 sezonów</span></div> <p class="text-gray-300 mb-6 text-lg">Adaptacja sagi George'a R.R. Martina. Kilka rodów szlacheckich walczy o Żelazny Tron i władzę nad Siedmioma Królestwami Westeros.</p> <div class="flex flex-wrap gap-4"><a href="top2.html" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105"><svg class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg><span>Szczegóły</span></a></div> <div class="mt-6 flex flex-wrap gap-2"><span class="bg-red-900 text-red-200 px-3 py-1 rounded-full text-xs">Fantasy</span><span class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs">Intrygi</span><span class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-xs">Westeros</span></div> </div>
+                </div>
+            </div>
+    
+            <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-xl transition-all duration-500 card-hover border border-gray-700" data-aos="fade-up" data-aos-delay="150">
+                <div class="flex flex-col md:flex-row">
+                     <div class="md:flex-none md:w-1/3 md:max-w-xs overflow-hidden hover-scale"> <img src="./images/band-of-brothers-original.jpg" alt="Plakat Kompania braci" class="w-full h-full object-cover"> </div>
+                    <div class="flex-auto p-8"> <h3 class="text-3xl font-bold text-white mb-3">3. Kompania braci</h3> <div class="flex items-center mb-4"><span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">8,73/10</span><span class="text-gray-400">2001 • Wojenny, Dramat • Miniserial</span></div> <p class="text-gray-300 mb-6 text-lg">Losy Kompanii E, 506 pułku piechoty spadochronowej 101 Dywizji Powietrznodesantowej Armii USA na europejskim froncie II Wojny Światowej.</p> <div class="flex flex-wrap gap-4"><a href="top3.html" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105"><svg class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg><span>Szczegóły</span></a></div> <div class="mt-6 flex flex-wrap gap-2"><span class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs">II Wojna Światowa</span><span class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs">Braterstwo</span><span class="bg-red-900 text-red-200 px-3 py-1 rounded-full text-xs">Klasyk HBO</span></div> </div>
+                </div>
+            </div>
+            <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-xl transition-all duration-500 card-hover border border-gray-700" data-aos="fade-right" data-aos-delay="100">
+                <div class="flex flex-col md:flex-row">
+                     <div class="md:flex-none md:w-1/3 md:max-w-xs overflow-hidden hover-scale"> <img src="./images/Rick_and_Morty.webp" alt="Plakat Rick i Morty" class="w-full h-full object-cover"> </div>
+                    <div class="flex-auto p-8"> <h3 class="text-3xl font-bold text-white mb-3">4. Rick i Morty</h3> <div class="flex items-center mb-4"><span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">8.6/10</span><span class="text-gray-400">2013 • Animacja, Komedia, Sci-Fi • 7+ sezonów</span></div> <p class="text-gray-300 mb-6 text-lg">Genialny naukowiec-alkoholik Rick porywa swojego płochliwego wnuka Morty'ego na szalone i niebezpieczne eskapady po wszechświecie.</p> <div class="flex flex-wrap gap-4"><a href="top4.html" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105"><svg class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg><span>Szczegóły</span></a></div> <div class="mt-6 flex flex-wrap gap-2"><span class="bg-cyan-900 text-cyan-200 px-3 py-1 rounded-full text-xs">Animacja dla dorosłych</span><span class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs">Czarny humor</span><span class="bg-lime-900 text-lime-200 px-3 py-1 rounded-full text-xs">Sci-Fi</span></div> </div>
+                </div>
+            </div>
+            <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-xl transition-all duration-500 card-hover border border-gray-700" data-aos="fade-left" data-aos-delay="100">
+                <div class="flex flex-col md:flex-row">
+                     <div class="md:flex-none md:w-1/3 md:max-w-xs overflow-hidden hover-scale"> <img src="./images/peaky-blinders.jpg" alt="Plakat Peaky Blinders" class="w-full h-full object-cover"> </div>
+                    <div class="flex-auto p-8"> <h3 class="text-3xl font-bold text-white mb-3">5. Peaky Blinders</h3> <div class="flex items-center mb-4"><span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">8.55/10</span><span class="text-gray-400">2013-2022 • Gangsterski, Dramat • 6 sezonów</span></div> <p class="text-gray-300 mb-6 text-lg">Saga gangsterskiej rodziny Shelby, działającej w Birmingham w latach 20. XX wieku, tuż po zakończeniu I Wojny Światowej.</p> <div class="flex flex-wrap gap-4"><a href="top5.html" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105"><svg class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg><span>Szczegóły</span></a></div> <div class="mt-6 flex flex-wrap gap-2"><span class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-xs">Gangsterski</span><span class="bg-red-900 text-red-200 px-3 py-1 rounded-full text-xs">Cillian Murphy</span><span class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs">Birmingham</span></div> </div>
+                </div>
+            </div>
+            <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-xl transition-all duration-500 card-hover border border-gray-700" data-aos="zoom-in-up">
+                <div class="flex flex-col md:flex-row">
+                     <div class="md:flex-none md:w-1/3 md:max-w-xs overflow-hidden hover-scale"> <img src="./images/OWGW.jpg" alt="Plakat Po drugiej stronie muru" class="w-full h-full object-cover"> </div>
+                    <div class="flex-auto p-8"> <h3 class="text-3xl font-bold text-white mb-3">6. Po drugiej stronie muru</h3> <div class="flex items-center mb-4"><span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">8.51/10</span><span class="text-gray-400">2014 • Animacja, Fantasy, Przygodowy • Miniserial</span></div> <p class="text-gray-300 mb-6 text-lg">Dwaj bracia gubią się w tajemniczym lesie zwanym Nieznane; aby odnaleźć drogę do domu, muszą przemierzyć pełną dziwów krainę.</p> <div class="flex flex-wrap gap-4"><a href="top6.html" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105"><svg class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg><span>Szczegóły</span></a></div> <div class="mt-6 flex flex-wrap gap-2"><span class="bg-cyan-900 text-cyan-200 px-3 py-1 rounded-full text-xs">Animacja</span><span class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs">Fantasy</span><span class="bg-yellow-900 text-yellow-200 px-3 py-1 rounded-full text-xs">Miniserial</span> </div> </div>
+                </div>
+            </div>
+           <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-xl transition-all duration-500 card-hover border border-gray-700" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex flex-col md:flex-row">
+                     <div class="md:flex-none md:w-1/3 md:max-w-xs overflow-hidden hover-scale"> <img src="./images/soprano.jpg" alt="Plakat Rodzina Soprano" class="w-full h-full object-cover"> </div>
+                    <div class="flex-auto p-8"> <h3 class="text-3xl font-bold text-white mb-3">7. Rodzina Soprano</h3> <div class="flex items-center mb-4"><span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">8.48/10</span><span class="text-gray-400">1999-2007 • Dramat, Gangsterski • 6 sezonów</span></div> <p class="text-gray-300 mb-6 text-lg">Mafioso z New Jersey, Tony Soprano, radzi sobie z problemami życia osobistego i zawodowego, które omawia podczas sesji terapeutycznych.</p> <div class="flex flex-wrap gap-4"><a href="top7.html" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105"><svg class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg><span>Szczegóły</span></a></div> <div class="mt-6 flex flex-wrap gap-2"><span class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-xs">Gangsterski</span><span class="bg-red-900 text-red-200 px-3 py-1 rounded-full text-xs">Mafia</span><span class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs">Klasyk HBO</span> </div> </div>
+                </div>
+           </div>
+          <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-xl transition-all duration-500 card-hover border border-gray-700" data-aos="fade-up" data-aos-delay="50">
+                <div class="flex flex-col md:flex-row">
+                     <div class="md:flex-none md:w-1/3 md:max-w-xs overflow-hidden hover-scale"> <img src="./images/wire.webp" alt="Plakat Prawo ulicy" class="w-full h-full object-cover"> </div>
+                    <div class="flex-auto p-8"> <h3 class="text-3xl font-bold text-white mb-3">8. Prawo ulicy</h3> <div class="flex items-center mb-4"><span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">8.47/10</span><span class="text-gray-400">2002-2008 • Dramat, Kryminał • 5 sezonów</span></div> <p class="text-gray-300 mb-6 text-lg">Realistyczny obraz walki między policją a handlarzami narkotyków na ulicach Baltimore, pokazujący konflikt z różnych perspektyw.</p> <div class="flex flex-wrap gap-4"><a href="top8.html" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105"><svg class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg><span>Szczegóły</span></a></div> <div class="mt-6 flex flex-wrap gap-2"><span class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-xs">Kryminał</span><span class="bg-red-900 text-red-200 px-3 py-1 rounded-full text-xs">Realizm</span><span class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-xs">Baltimore</span></div> </div>
+                </div>
+           </div>
+           <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-xl transition-all duration-500 card-hover border border-gray-700" data-aos="fade-left" data-aos-delay="150">
+                <div class="flex flex-col md:flex-row">
+                     <div class="md:flex-none md:w-1/3 md:max-w-xs overflow-hidden hover-scale"> <img src="./images/detective.jpg" alt="Plakat Detektyw" class="w-full h-full object-cover"> </div>
+                    <div class="flex-auto p-8"> <h3 class="text-3xl font-bold text-white mb-3">9. Detektyw</h3> <div class="flex items-center mb-4"><span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">8.42/10</span><span class="text-gray-400">2014 • Kryminał, Thriller • 4 sezony</span></div> <p class="text-gray-300 mb-6 text-lg">Antologia kryminalna, w której każdy sezon śledzi inną mroczną sprawę i detektywów, którzy ją prowadzą.</p> <div class="flex flex-wrap gap-4"><a href="top9.html" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105"><svg class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg><span>Szczegóły</span></a></div> <div class="mt-6 flex flex-wrap gap-2"><span class="bg-gray-600 text-gray-200 px-3 py-1 rounded-full text-xs">Antologia</span><span class="bg-red-900 text-red-200 px-3 py-1 rounded-full text-xs">Kryminał</span><span class="bg-indigo-900 text-indigo-200 px-3 py-1 rounded-full text-xs">Mroczny klimat</span></div> </div>
+                </div>
+            </div>
+            <div class="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-xl transition-all duration-500 card-hover border border-gray-700" data-aos="fade-right" data-aos-delay="150">
+               <div class="flex flex-col md:flex-row">
+                    <div class="md:flex-none md:w-1/3 md:max-w-xs overflow-hidden hover-scale"> <img src="./images/succession.jpeg" alt="Plakat Sukcesja" class="w-full h-full object-cover"> </div>
+                   <div class="flex-auto p-8"> <h3 class="text-3xl font-bold text-white mb-3">10. Sukcesja</h3> <div class="flex items-center mb-4"><span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold mr-3">8.28/10</span><span class="text-gray-400">2018-2023 • Dramat • 4 sezony</span></div> <p class="text-gray-300 mb-6 text-lg">Walka o władzę w dysfunkcyjnej rodzinie Royów, właścicieli globalnego imperium medialnego Waystar RoyCo.</p> <div class="flex flex-wrap gap-4"><a href="top10.html" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg flex items-center justify-center transition-all duration-300 hover:scale-105"><svg class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2h2a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg><span>Szczegóły</span></a></div> <div class="mt-6 flex flex-wrap gap-2"><span class="bg-green-900 text-green-200 px-3 py-1 rounded-full text-xs">Biznes</span><span class="bg-purple-900 text-purple-200 px-3 py-1 rounded-full text-xs">Rodzina</span><span class="bg-red-900 text-red-200 px-3 py-1 rounded-full text-xs">Emmy</span></div> </div>
+               </div>
+             </div>
+    
+        </div> <section class="mt-16 mb-8 animate-fade-in" style="animation-delay: 0.5s;" data-aos="zoom-in-up">
+            <h2 class="text-3xl font-bold mb-8 text-center text-purple-400">Sukces Krytyków: Wybrane Nagrody Emmy</h2>
+            <div class="overflow-x-auto glass-effect rounded-xl p-6 shadow-lg border border-gray-700 max-w-4xl mx-auto"> <p class="text-center text-gray-400 text-sm mb-6 italic">Liczba zdobytych nagród Primetime Emmy Awards jako wskaźnik uznania.</p>
+              <table class="w-full text-left table-auto">
+                <thead class="border-b-2 border-gray-600">
+                  <tr>
+                    <th class="p-4 text-lg text-sky-300 font-semibold">Serial</th>
+                    <th class="p-4 text-lg text-sky-300 font-semibold text-center">Lata emisji</th>
+                    <th class="p-4 text-lg text-sky-300 font-semibold text-center">Nagrody Emmy (Primetime)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-gray-700 hover:bg-gray-800/50 transition-colors">
+                    <td class="p-4 font-bold text-lg text-white">Gra o tron</td>
+                    <td class="p-4 text-gray-300 text-center">2011-2019</td>
+                    <td class="p-4 text-xl text-amber-400 font-bold text-center">59</td>
+                  </tr>
+                  <tr class="border-b border-gray-700 hover:bg-gray-800/50 transition-colors">
+                    <td class="p-4 font-bold text-lg text-white">Rodzina Soprano</td>
+                    <td class="p-4 text-gray-300 text-center">1999-2007</td>
+                    <td class="p-4 text-xl text-amber-400 font-bold text-center">21</td>
+                  </tr>
+                   <tr class="border-b border-gray-700 hover:bg-gray-800/50 transition-colors">
+                    <td class="p-4 font-bold text-lg text-white">Sukcesja</td>
+                    <td class="p-4 text-gray-300 text-center">2018-2023</td>
+                    <td class="p-4 text-xl text-amber-400 font-bold text-center">19</td>
+                  </tr>
+                  <tr class="hover:bg-gray-800/50 transition-colors">
+                    <td class="p-4 font-bold text-lg text-white">Czarnobyl</td>
+                    <td class="p-4 text-gray-300 text-center">2019</td>
+                    <td class="p-4 text-xl text-amber-400 font-bold text-center">10</td>
+                  </tr>
+                  </tbody>
+              </table>
+              <p class="text-center text-gray-500 text-xs mt-4">* Dane dotyczące liczby nagród są przybliżone i mogą ulec zmianie.</p>
+            </div>
+          </section>
+      </main>
+
+    <footer class="bg-gray-800 py-8 mt-12 px-4 md:px-8 text-center text-gray-400 border-t border-gray-700">
+        <p>&copy; 2025 Ranking Seriali Max. Wszelkie prawa zastrzeżone (lub nie!).</p>
+        <p class="text-sm mt-1">Ranking oparty na danych z <a href="https://www.filmweb.pl/ranking/vod/max/serial"
+                target="_blank" rel="noopener noreferrer"
+                class="text-sky-400 hover:text-sky-300 transition-colors underline">Filmweb.pl</a> (stan na 03.04.2025).
+        </p>
+        <p class="mt-2 text-sm">Stworzone z użyciem <a href="https://tailwindcss.com/" target="_blank"
+                rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 transition-colors">Tailwind CSS</a> &
+            <a href="https://github.com/michalsnik/aos" target="_blank" rel="noopener noreferrer"
+                class="text-sky-400 hover:text-sky-300 transition-colors">AOS</a>.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+
+</body>
+
+</html>
